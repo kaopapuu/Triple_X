@@ -8,18 +8,18 @@ int main()
     std::cout << "You need to enter the correct code to continue...";
 
     // Declare 3 number code
-    const int a = 2;
-    const int b = 4;
-    const int c = 6;
+    const int Code_A = 2;
+    const int Code_B = 4;
+    const int Code_C = 6;
 
-    const int sum = a + b + c;
-    const int product = a * b * c;
+    const int CodeSum = Code_A + Code_B + Code_C;
+    const int CodeProduct = Code_A * Code_B * Code_C;
 
-    //print sum and product to the terminal
+    //print CodeSum CodeProduct to the terminal
     std::cout << std::endl;
     std::cout << "+ There are 3 number in code" << std::endl;
-    std::cout << "+ The codes add-up to: " <<sum << std::endl;
-    std::cout << "+ The codes multiply to give "<<product << std::endl;
+    std::cout << "+ The codes add-up to: " << CodeSum << std::endl;
+    std::cout << "+ The codes multiply to give "<< CodeProduct << std::endl;
 
     return 0;
 }
