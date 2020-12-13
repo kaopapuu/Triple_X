@@ -17,8 +17,9 @@ int main()
 
     //print sum and product to the terminal
     std::cout << std::endl;
-    std::cout << sum << std::endl;
-    std::cout << product << std::endl;
+    std::cout << "+ There are 3 number in code" << std::endl;
+    std::cout << "+ The codes add-up to: " <<sum << std::endl;
+    std::cout << "+ The codes multiply to give "<<product << std::endl;
 
     return 0;
 }
